@@ -1,13 +1,19 @@
+body {
+    margin: auto;
+    width: 85%;
+    padding-top: 10px;
+}
+
 h3 {
     display: inline;
 }
   
 header {
-    background-color: orange;
+    background-color: rgb(239, 111, 46);
 }
 
 main {
-    background-color: lavenderblush;
+    background-color: rgb(246, 246, 240);
 }
   
 ol {
@@ -41,6 +47,16 @@ li {
 }
 
 .link_adress {
-    color: black;
+    color: grey;
+    font-size: small;
     text-decoration: none;
+}
+
+.bracket {
+    font-size: small;
+}
+
+#list {
+    display: inline-block;
+    margin-right: 300px;
 }
