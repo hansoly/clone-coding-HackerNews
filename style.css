@@ -58,5 +58,24 @@ li {
 
 #list {
     display: inline-block;
-    margin-right: 300px;
+}
+/*
+@media only screen and (max-width:200px) and (min-width:20px) span.list_element{
+    font-size:12px;
+}
+*/
+
+/*
+.list_element a {
+    text-align: right;
+}
+*/
+
+
+
+@media only screen and (max-width: 750px) and (min-width: 300px) {
+    span.list_element {
+        display: inline;
+        margin: 3px 5px;
+    }
 }
