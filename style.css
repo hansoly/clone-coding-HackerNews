@@ -18,6 +18,7 @@ main {
   
 ol {
     margin-top: 0;
+    margin-bottom: 0;
     padding-top: 10px;
     padding-left:20px;
 }
@@ -60,40 +61,44 @@ li {
     display: inline-block;
     text-decoration: none;
 }
-/*
-@media only screen and (max-width:200px) and (min-width:20px) span.list_element{
-    font-size:12px;
+
+
+.list_element {
+    margin: 3px 5px;
 }
-*/
 
 /*
-.list_element a {
+#login {
     text-align: right;
+    display: block;
+}
+
+#login a {
+    display: block;
 }
 */
 
+#list {
+    text-align: left;
+}
 
-
-
-@media only screen and (max-width: 750px) and (min-width: 300px) {
-    span.list_element {
-        display: inline;
-        margin: 3px 5px;
-    }
+#list h3 a {
+    vertical-align: inherit;
 }
 
 
 footer {
     background-color: rgb(246, 246, 240);
-    height: 50px;
-    margin: 0;
+    height: 70px;
     border-top: solid rgb(239, 111, 46);
+    text-align: center;
+    margin-top: 0;
 }
 
 .footer_list {
     font-size: 10px;
     text-align: center;
-    padding-top: 9px;
+    padding-top: 12px;
 }
 
 .none_decorate {
@@ -102,3 +107,15 @@ footer {
     display: inline-block;
 }
 /*inline-block이 뭐길래 이게 가능하지*/
+
+#search {
+    display: inline-block;
+    color: grey;
+    padding-top: 8px;
+}
+
+#search input {
+    width: 150px;
+}
+
+/* main과 footer 사이에 있던 공백은 ol의 margin-bottom이었다.*/
