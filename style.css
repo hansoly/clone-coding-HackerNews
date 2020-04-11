@@ -3,11 +3,6 @@ body {
     width: 85%;
     padding-top: 10px;
 }
-
-h3 {
-    display: inline;
-}
-  
 header {
     background-color: rgb(239, 111, 46);
 }
@@ -15,18 +10,33 @@ header {
 main {
     background-color: rgb(246, 246, 240);
 }
-  
+#list {
+    display: inline-block;
+    text-decoration: none;
+    text-align: left;
+}
+#list h3 a {
+    vertical-align: inherit;
+}
+.list_element {
+    margin: 3px 5px;
+}
+.list_element span, 
+.list_element a {
+    font-size: 13px;
+} 
+h3 {
+    display: inline;
+}
 ol {
     margin-top: 0;
     margin-bottom: 0;
     padding-top: 10px;
     padding-left:20px;
-}
-  
+} 
 li {
     color: grey;
 }
-
 .triangle {
     display: inline-block;
     width: 0;
@@ -36,35 +46,21 @@ li {
     border-right: solid 5px transparent;
 }
 /*inline-block을 안 쓰면 삼각형 윗 공간이 생긴다.*/
-
 .article_title {
     color: black;
     text-decoration: none;
 }
-
 .pushed_time {
     font-size: small;
     color: grey;
 }
-
 .link_adress {
     color: grey;
     font-size: small;
     text-decoration: none;
 }
-
 .bracket {
     font-size: 11px;
-}
-
-#list {
-    display: inline-block;
-    text-decoration: none;
-}
-
-
-.list_element {
-    margin: 3px 5px;
 }
 
 /*
@@ -77,16 +73,6 @@ li {
     display: block;
 }
 */
-
-#list {
-    text-align: left;
-}
-
-#list h3 a {
-    vertical-align: inherit;
-}
-
-
 footer {
     background-color: rgb(246, 246, 240);
     height: 70px;
@@ -100,20 +86,17 @@ footer {
     text-align: center;
     padding-top: 12px;
 }
-
-.none_decorate {
+.top_link {
     color: black;
     text-decoration: none;
     display: inline-block;
 }
 /*inline-block이 뭐길래 이게 가능하지*/
-
 #search {
     display: inline-block;
     color: grey;
     padding-top: 8px;
 }
-
 #search input {
     width: 150px;
 }
