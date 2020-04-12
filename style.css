@@ -37,6 +37,17 @@ ol {
 li {
     color: grey;
 }
+
+#login {
+    text-align: right;
+}
+
+#login.a {
+    display: inline-block;
+}
+
+
+
 .triangle {
     display: inline-block;
     width: 0;
