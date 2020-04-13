@@ -6,17 +6,13 @@ body {
 header {
     background-color: rgb(239, 111, 46);
 }
-
 main {
     background-color: rgb(246, 246, 240);
 }
 #list {
-    display: inline-block;
+    display: grid;
     text-decoration: none;
     text-align: left;
-}
-#list h3 a {
-    vertical-align: inherit;
 }
 .list_element {
     margin: 3px 5px;
@@ -25,6 +21,11 @@ main {
 .list_element a {
     font-size: 13px;
 } 
+#login {
+    grid-column: 3;
+    text-align: right;
+}
+/*grid를 사용하여 오른쪽에 붙일 수 있었다*/
 h3 {
     display: inline;
 }
@@ -37,17 +38,6 @@ ol {
 li {
     color: grey;
 }
-
-#login {
-    text-align: right;
-}
-
-#login.a {
-    display: inline-block;
-}
-
-
-
 .triangle {
     display: inline-block;
     width: 0;
@@ -73,17 +63,6 @@ li {
 .bracket {
     font-size: 11px;
 }
-
-/*
-#login {
-    text-align: right;
-    display: block;
-}
-
-#login a {
-    display: block;
-}
-*/
 footer {
     background-color: rgb(246, 246, 240);
     height: 70px;
@@ -91,7 +70,6 @@ footer {
     text-align: center;
     margin-top: 0;
 }
-
 .footer_list {
     font-size: 10px;
     text-align: center;
