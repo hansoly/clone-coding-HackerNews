@@ -13,8 +13,8 @@ main {
     display: grid;
     text-decoration: none;
     padding: 3px;
-    height: 25px;
-    line-height: 25px;
+    height: 20px;
+    line-height: 20px;
 }
 .list_element {
     margin: 3px 5px;
