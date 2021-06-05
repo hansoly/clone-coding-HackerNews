@@ -169,11 +169,8 @@ MANAGER_EMAIL=YOUR_MANAGER_EMAIL
 ### 메일링 시스템
 
 <p style="text-align: center;">
-  <img src="./readme-assets/open-email-template.png" width="640" style="border: 1px solid #f1f0f0;" />
-</p>
-
-<p style="text-align: center;">
-  <img src="./readme-assets/result-email-template.png" width="640" style="border: 1px solid #f1f0f0;" />
+  <img src="./readme-assets/open-email-template.png" />
+  <img src="./readme-assets/result-email-template.png" />
 </p>
 
 - 판타지 베이스볼 유저는 베팅 시작 메일을 받을 수 있습니다.
